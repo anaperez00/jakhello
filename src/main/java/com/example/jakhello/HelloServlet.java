@@ -23,7 +23,7 @@ public class  HelloServlet extends HttpServlet {
     // el put: cuando quiero actualizar una informacion existenete
     // delete: para eliminar
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        // puedo responder un json, un text por ahora un html ya que quiero que el navegador imprima de una vez 
+        // puedo responder un json, un text por ahora un html ya que quiero que el navegador imprima de una vez
         response.setContentType("text/html");
 
 
