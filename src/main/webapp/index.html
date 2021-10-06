@@ -1,13 +1,22 @@
-
 <!DOCTYPE html>
 <html>
     <head>
         <title>Jakarta EE - Hello World</title>
     </head>
+
     <body>
         <h1>Hello World!</h1>
         <br/>
+
+        <!-- llamado tipo post al servidor
+        * se hara una autenticacion basica de usuario contraseña    -->
+        <form action="hello-servlet" method="post">
+            username: <input type="text" name="username">
+            password: <input type="password" name="password">
+            <input type="submit" value="log In">
+        </form>
+
         <!-- por detras jakarta o el servidor de aplicaciones le hace match con lo que se encuentra en esa clase de hello servlet-->
-        <a href="hello-servlet">Hello Servlet</a>
+       <!-- <a href="hello-servlet">Hello Servlet</a>-->
     </body>
 </html>

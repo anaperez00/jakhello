@@ -2,11 +2,7 @@
   <configuration default="false" name="JBoss/WildFly 25.0.0.Beta1" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss/WildFly 25.0.0.Beta1" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
     <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/jakhello-1.0-SNAPSHOT/" />
     <option name="UPDATING_POLICY" value="restart-server" />
-    <deployment>
-      <artifact name="jakhello:war exploded">
-        <settings />
-      </artifact>
-    </deployment>
+    <deployment />
     <server-settings>
       <option name="SERVER" />
       <option name="BINDING_SET_NAME" value="" />
